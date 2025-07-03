@@ -45,14 +45,14 @@ extern const uint8_t doom_pcm_end[]   asm("_binary_doom_pcm_end");
 extern const uint8_t butterfly_pcm_start[] asm("_binary_butterfly_pcm_start");
 extern const uint8_t butterfly_pcm_end[]   asm("_binary_butterfly_pcm_end");
 
-extern const uint8_t dance_pcm_start[] asm("_binary_dance_pcm_start");
-extern const uint8_t dance_pcm_end[]   asm("_binary_dance_pcm_end");
+/* extern const uint8_t dance_pcm_start[] asm("_binary_dance_pcm_start");
+extern const uint8_t dance_pcm_end[]   asm("_binary_dance_pcm_end"); */
 
 extern const uint8_t mission_pcm_start[] asm("_binary_mission_pcm_start");
 extern const uint8_t mission_pcm_end[]   asm("_binary_mission_pcm_end");
 
-extern const uint8_t tetris_pcm_start[] asm("_binary_tetris_pcm_start");
-extern const uint8_t tetris_pcm_end[]   asm("_binary_tetris_pcm_end");
+/* extern const uint8_t tetris_pcm_start[] asm("_binary_tetris_pcm_start");
+extern const uint8_t tetris_pcm_end[]   asm("_binary_tetris_pcm_end"); */
 
 extern const uint8_t pacman_pcm_start[] asm("_binary_pacman_pcm_start");
 extern const uint8_t pacman_pcm_end[]   asm("_binary_pacman_pcm_end");
@@ -70,9 +70,9 @@ typedef struct {
 static const music_track_t tracks[] = {
     { doom_pcm_start, doom_pcm_end },
     { butterfly_pcm_start, butterfly_pcm_end },
-    { dance_pcm_start, dance_pcm_end },
+    // { dance_pcm_start, dance_pcm_end },
     { mission_pcm_start, mission_pcm_end },
-    { tetris_pcm_start, tetris_pcm_end },
+    // { tetris_pcm_start, tetris_pcm_end },
     { pacman_pcm_start, pacman_pcm_end },
     { undertale_pcm_start, undertale_pcm_end }
 };
